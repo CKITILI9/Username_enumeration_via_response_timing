@@ -63,15 +63,19 @@ Finding a valid username and password by monitoring and manipulating timing resp
 - Run the script.
 - A valid username will take more than 2 seconds to check password.
 - Found a valid username that took longer (5 seconds)
+----
 ![ ](images/image1.jpg)
+-----
 - As seen in the image, the username as400 took 5 seconds.
 - The rest of the responses took between 0.6 seconds to 1 second, as shown in the image below:
+----
 ![ ](images/image2.jpg)
 ---------
 #Password bruteforce
 - Next is testing a valid password.
 - We’ll need an enumerate_password function that almost resembles enumerate_usernames.
 - The snippet is shown below:
+----
 ![ ](images/image3.jpg)
 ------
 #Call the Functions
@@ -86,11 +90,13 @@ Finding a valid username and password by monitoring and manipulating timing resp
 - Then, ensure it prints the status_code for every password attempt.
 - When the password is valid, the application will redirect to another page, and the status_code changes to 302 (meaning redirect).
 - The script successfully generated a valid username and password that redirected to a new page.
+---
 ![ ](images/image4.jpg)
 ----
 - The valid username and password pair is app:letmein
 - Enter the credential pair in the challenge’s lab.
 - With that, the lab was solved
+---
 ![ ](images/image5.jpg)
 ----
 
