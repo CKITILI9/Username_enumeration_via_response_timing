@@ -64,12 +64,12 @@
 - A valid username will take more than 2 seconds to check password.
 - Found a valid username that took longer (5 seconds)
 ---
-![ ](images/image1.png)
+![ ](images/image1.jpg)
 ---
 - As seen in the image, the username as400 took 5 seconds.
 - The rest of the responses took between 0.6 seconds to 1 second, as shown in the image below:
 ---
-![ ](images/image2.png)
+![ ](images/image2.jpg)
 ---
 #Password bruteforce
 - Next is testing a valid password.
